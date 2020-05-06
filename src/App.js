@@ -7,11 +7,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="" />
+        <h1> Hello! </h1>
         <p>
             I was changed on the feature branch
-</p>
-</header>
-</div>
+        </p>
+      </header>
+    </div>
 );
 }
 
