@@ -9,10 +9,10 @@ function App() {
         <img src={logo} className="App-logo" alt="" />
         <p>
             I was changed on the feature branch
-        </p>
-      </header>
-    </div>
-  );
+</p>
+</header>
+</div>
+);
 }
 
 export default App;
