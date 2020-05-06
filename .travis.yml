@@ -3,9 +3,9 @@ services:
   - docker
 
 before_install:
-  - docker build -t Linneakawe/docker-react -f Dockerfile.dev .
+  - docker build -t linneakawe/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true Linneakawe/docker-react npm run test
+  - docker run -e CI=true linneakawe/docker-react npm run test
 
 language: generic
